@@ -1,0 +1,14 @@
+{
+  "name": "algorithms-and-datastructures",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "scripts": {
+    "start": "jest --watchAll"
+  },
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "28.1.3"
+  }
+}
