@@ -1,4 +1,4 @@
-const { linearSearch1, linearSearch2 } = require("./linearSearch");
+const { linearSearch1, linearSearch2 } = require("./script");
 
 describe("linearSearch", () => {
   it("linearSearch1 is finded", () => {

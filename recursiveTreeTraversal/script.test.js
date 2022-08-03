@@ -1,17 +1,17 @@
-const { sumSalaries, inverse } = require("./recursiveTreeTraversal");
+const { sumSalaries, inverse } = require("./script");
 
 let company = {
   sales: [
     { name: "John", salary: 1000 },
-    { name: "Alice", salary: 600 }
+    { name: "Alice", salary: 600 },
   ],
   development: {
     sites: [
       { name: "Peter", salary: 2000 },
-      { name: "Alex", salary: 1800 }
+      { name: "Alex", salary: 1800 },
     ],
-    internals: [{ name: "Jack", salary: 1300 }]
-  }
+    internals: [{ name: "Jack", salary: 1300 }],
+  },
 };
 
 const tree = {
@@ -19,12 +19,12 @@ const tree = {
     a: 1,
     b: {
       a: 0,
-      b: 1
+      b: 1,
     },
-    c: 0
+    c: 0,
   },
   b: 0,
-  c: 1
+  c: 1,
 };
 
 const treeInverse = {
@@ -32,12 +32,12 @@ const treeInverse = {
     a: 0,
     b: {
       a: 1,
-      b: 0
+      b: 0,
     },
-    c: 1
+    c: 1,
   },
   b: 1,
-  c: 0
+  c: 0,
 };
 
 describe("recursiveTreeTraversal", () => {
