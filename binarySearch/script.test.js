@@ -1,4 +1,4 @@
-const { binarySearch } = require("./script");
+const { binarySearch, recursiveBinarySearch } = require("./script");
 
 describe("linearSearch", () => {
   it("linearSearch1 is finded", () => {
@@ -31,5 +31,9 @@ describe("linearSearch", () => {
 
   it("linearSearch1 is not finded", () => {
     expect(binarySearch([1, 2, 3, 4, 5, 6], 10)).toBe(-1);
+  });
+
+  it("recursiveBinarySearch in find", () => {
+    expect(recursiveBinarySearch([1, 2, 3, 4, 5], 3)).toBe(2);
   });
 });
